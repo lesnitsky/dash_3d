@@ -1,16 +1,27 @@
 # dash_3d
 
-A new Flutter project.
+[![lesnitsky.dev](https://lesnitsky.dev/shield.svg?hash=106504)](https://lesnitsky.dev?utm_source=dash_3d)
+[![GitHub stars](https://img.shields.io/github/stars/lesnitsky/dash_3d.svg?style=social)](https://github.com/lesnitsky/dash_3d)
+[![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_dev.svg?label=Follow%20me&style=social)](https://twitter.com/lesnitsky_dev)
 
-## Getting Started
+Flutter 3D capabilities showcase
 
-This project is a starting point for a Flutter application.
+![Screenshot](https://raw.githubusercontent.com/lesnitsky/dash_3d/master/assets/screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
+## How it works (will work)?
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Web
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+HtmlElementView (canvas inside + WebGL)
+
+### Android
+
+GLSurfaceView + EGL and OpenGL via `dart:ffi` (not implemented yet)
+
+### iOS
+
+OpenGL + MetalAngle via `dart:ffi` (not implemented yet)
+
+### LICENSE
+
+MIT
